@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PasteBoma - Home</title>
+  <meta name="description" content="Venta de pasteles
+</head>
+<body>
+<nav>
+  <div class="navLogo">
+    <a href="#">
+      <img src="logo.png" alt="PasteBomba"/>
+    </a>
+  </div>
+  <div>
+    <ul>
+      <li>
+        <a href="./index.html">Inicio</a>
+      </li>
+      <li>
+        <a href="./pedido.html">Pedido</a>
+      </li>
+      <li>
+        <a href="./pastelero.html">Pastelero</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+<main class="background" style="padding: 10px 0;">
+
+  <section>
+    <h2>Ordenar pedido.</h2>
+    <form action="#" class="pedido">
+      <div>
+        <label for="name">Nombre: </label>
+        <input type="text" id="name" name="name" required/><br>
+
+        <label for="phone">Teléfono: </label>
+        <input type="tel" id="phone" name="phone" required/>
+      </div>
+      <div>
+        <label for="email">Correo Electrónico: </label>
+        <input type="email" id="email" name="email" required/>
+      </div>
+      <div>
+        <label>Selecciona el sabor: </label>
+        <div>
+          <input type="radio" id="fresa" name="flavour" value="Zanahoria" required/>
+          <label for="Zanahoria">Zanahoria </label>
+        </div>
+        <div>
+          <input type="radio" name="flavour" id="Fresa" value="Terciopelo rojo"/>
+          <label for="Fresa">Fresa</label>
+        </div>
+        <div>
+          <input type="radio" name="flavour" id="Chocolate" value="Zanahora"/>
+          <label for="Chocolate">Chocolate crema </label>
+        </div>
+        <div>
+          <input type="radio" name="flavour" id="Coco" value="Chocolate"/>
+          <label for="Coco">Coco </label>
+        </div>
+        <div>
+          <input type="radio" name="flavour" id="Nuez" value="Coco"/>
+          <label for="Nuez">Nuez </label>
+        </div>
+        <div>
+          <input type="radio" name="flavour" id="Queso" value="Chocolate German"/>
+          <label for="Queso">Queso crema </label>
+        </div>
+        <div>
+          <input type="radio" name="flavour" id="Napolitano" value="Colobrí"/>
+          <label for="Napolitano">Napolitano </label>
+        </div>
+      </div>
+      <div><br>
+        <label>Selecciona los decoravitos adicionales: </label><br>
+        <input type="checkbox" name="toppings" id="frase" value="customizado">
+        <label for="frase">Frase personalizada </label>
+      </div><br>
+      <div>
+        <label for="description">Descripción del pastel: </label><br>
+        <textarea name="description" id="description" cols="30" rows="10"></textarea>
+      </div>
+      <div><br>
+        <button type="submit">
+          Finalizar pedido
+        </button>
+      </div>
+    </form>
+  </section>
+  
+</main>
+
+
+</body>
+</html>
